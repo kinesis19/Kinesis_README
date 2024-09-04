@@ -1,51 +1,59 @@
-# (Repo Description)
+# **(Repo Description)**
+e.g) [ROBIT] Intelligence Team practicing repository (STM32, Printer, HW, etc.)
 
+## **Project Description.**
+e.g) This is a Kinesis's practicing repository in the ROBIT Intelligence Team.
 
-## Project Description.
+## **How to Study**
+e.g) 1. Searching<br>
+2. Something
 
-
-## How to Study
-
-
-## Commit Rule
+## **Commit Rule**
 Base Rule : [gitmoji](https://gitmoji.dev/) <br>
-Other Rule : 개인적으로 규칙을 정의함.<br>
+Other Rule : Define personal rules.<br>
 Coding Style : [Google-StyleGuid-Cpp](https://google.github.io/styleguide/cppguide.html)<br>
-Other Style : Google Style Guid를 준수하되, 아직 파악하지 못 한 가이드는 개인 스타일로 코드를 작성함.<br>
+Other Style : Follow Google StyleGuide. The part I haven't figured out yet, I write the code in my personal style.<br>
 
 
-### Gitmoji
-
+### **Gitmoji**
 
 <details>
 <summary>Open/Close</summary>
 
-<!-- summary 아래 한칸 공백 두어야함 -->
-🎉(tada): 프로젝트 시작<br>
-✨(sparkles) : 새 기능 추가<br>
-🚀(rocket) : 성능 개선<br>
-🔧(wrench) : 구성 파일 추가 / 업데이트<br>
-🔨(hammer) : 개발 스크립트 추가 / 업데이트<br>
-🔥(fire) : 코드 / 파일 삭제<br>
-💩(poop) : 안 좋은 코드(개선 필요)<br>
-💡(bulb) : 주석 작성<br>
-🩹(adhesive_bandage) : 간단한 수정(크리티컬 이슈X)<br>
-🚚(truck) : 파일 / 경로 / 이름 변경<br>
-⚰️(coffin) : 죽은 코드 삭제<br>
-🐛(bug) : 버그 수정<br>
-♻️(recycle) : 리팩토링<br>
-📝(memo) : 문서 추가 / 업데이트<br>
-💄(lipstick) : UI 개선<br>
-📦(package) : 컴파일된 파일 추가<br>
+<!-- summary You must leave a blank space on top -->
+| Gitmoji | Description |
+| :--- | :--- |
+| 🎉(tada) | Begin a project |
+| ✨(sparkles) | Introduce new features |
+| ⚡(zap) | Improve performance |
+| 🔧(wrench) | Add or update configuration files |
+| 🔨(hammer) | Add or update development scripts |
+| 🔥(fire) | Remove code or files |
+| 💩(poop) | Write bad code that needs to be improved |
+| 💡(bulb) | Add or update comments in source code |
+| 🩹(adhesive_bandage) | Simple fix for a non-critical issue |
+| 🚚(truck) | Move or rename resources (e.g.: files, paths, routes) |
+| ⚰️(coffin) | Remove dead code |
+| 🐛(bug) | Fix a bug |
+| 🚧(construction) | Work in progress |
+| ⚗️(alembic) | Perform experiments |
+| ♻️(recycle) | Refactor code |
+| 📝(memo) | Add or update documentation |
+| ✏️(pencil2) | Fix typos |
+| 🍱(bento) | Add or update assets |
+| 💄(lipstick) | Add or update the UI and style files |
+| 🙈(see_no_evil) | Add or update a .gitignore file |
+| ⏪(rewind) | Revert changes |
+| 📦(package) | Add or update compiled files or packages |
 </details>
 
 
-### Commit Type
+### **Commit Type**
 
 <details>
 <summary>Open/Close</summary>
 
-<!-- summary 아래 한칸 공백 두어야함 -->
+<!-- summary You must leave a blank space on top -->
 | Name | Description |
 | :--- | :--- |
 | Create | Create New file / Project|
@@ -59,19 +67,10 @@ Other Style : Google Style Guid를 준수하되, 아직 파악하지 못 한 가
 </details>
 
 
-### Commit Message
-변경된 사항에 대한 간략한 메시지를 남깁니다.<br>
-
-### Commit Filep
-to (FileName).c : 새로운 함수를 파일에 추가한 경우<br>
-in (FileName).c : 특정 함수 내의 로직을 수정한 경우<br>
+### **Commit Message**
+Leave a brief message about the changes.<br>
 
 
-### Commit Format
+### **Commit Format**
 
-(Gitmoji) (Commit Type): (Commit Message) (Commit File)
-
-### Others
-
-gitmoji를 우선으로 작성하고, Commit Title에 할당된 gitmoji는 달라도 됨.<br>
-Example Case #1: Update Script -> 🔧 Update system in main.c<br>
+(Gitmoji) (Commit Type): (Commit Message) (Commit File target)
