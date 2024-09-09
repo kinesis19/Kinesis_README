@@ -1,14 +1,45 @@
-# **(Repo Description)**
-e.g) [ROBIT] Intelligence Team practicing repository (STM32, Printer, HW, etc.)
+# 📘Table of Contents
+- [📖 C_Programming_Applications](#-c_programming_applications)
+- [💻 Getting Started](#-getting-started)
+    - [Setup](#setup)
+    - [Install](#install)
+    - [How to Create Project in Visual Studio 2022](#how-to-create-project-in-visual-studio-2022)
+- [✏️ How to Study](#️-how-to-study)
+- [🌱 Commit Rule](#-commit-rule)
+    - [gitmoji](#gitmoji)
+    - [Commit Type](#commit-type)
+    - [Commit Message](#commit-message)
+    - [Commit Format](#commit-format)
+- [💁 Author](#-author)
 
-## **Project Description.**
-e.g) This is a Kinesis's practicing repository in the ROBIT Intelligence Team.
 
-## **How to Study**
-e.g) 1. Searching<br>
-2. Something
+# **📖 {Repo Name}**
+(Repo Description)
 
-## **Commit Rule**
+
+## **💻 Getting Started**
+
+## Setup
+```bash
+gh repo clone (github repo directory)
+```
+
+## Install
+1. [Visual Studio Code(required)](https://code.visualstudio.com/)
+
+## How to Create Project in Visual Studio Code
+1. (explain)
+2. (explain)
+3. (explain)
+
+Directory sample
+> C:\Users\\{UserName}\Github\\(repo name)
+
+## **✏️ How to Study**
+(explain)
+
+
+## **🌱 Commit Rule**
 Base Rule : [gitmoji](https://gitmoji.dev/) <br>
 Other Rule : Define personal rules.<br>
 Coding Style : [Google-StyleGuid-Cpp](https://google.github.io/styleguide/cppguide.html)<br>
@@ -74,3 +105,11 @@ Leave a brief message about the changes.<br>
 ### **Commit Format**
 
 (Gitmoji) (Commit Type): (Commit Message) (Commit File target)
+
+
+## 💁 Author
+💁 Kinesis Akashic
+- Github: [@kinesis19](https://github.com/kinesis19)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/kinesis19/)
+
+
